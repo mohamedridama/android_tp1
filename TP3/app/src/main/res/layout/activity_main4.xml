@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="88dp"
+            android:layout_height="53dp"
+            android:text="world"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/bt_precedent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="precedent"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/bt_appel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="passer appel"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/bt_afficher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="afficher"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/bt_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="envoyer mail"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/bt_alarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="alarme"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/bt_calendar"
+            android:text="calendrier"
+            android:textSize="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/bt_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="camera"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
